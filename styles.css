@@ -1,16 +1,23 @@
+/* Basic Styling for the Portfolio Website */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
     text-align: center;
+    padding: 20px;
     background-color: #007BFF;
     color: white;
-    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
 }
 
 section {
@@ -22,7 +29,7 @@ section {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -32,8 +39,7 @@ ul li {
 
 footer {
     text-align: center;
-    background-color: #333;
-    color: white;
     padding: 10px;
+    background: #333;
+    color: white;
 }
-
